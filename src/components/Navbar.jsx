@@ -1,34 +1,15 @@
-// import React from "react";
-
-// function Navbar() {
-//   return (
-//     <nav className="flex justify-between bg-slate-700 text-white py-2">
-//       <div className="logo">
-//         <span className="font-bold text-xl mx-8">iTask</span>
-//       </div>
-
-//       <ul className="flex gap-8 mx-9">
-//         <li className="cursor-pointer hover:font-bold transition-all duration-75">
-//           Home
-//         </li>
-
-//         <li className="cursor-pointer hover:font-bold transition-all duration-75">
-//           Your Tasks
-//         </li>
-//       </ul>
-//     </nav>
-//   );
-// }
-
-// export default Navbar;
-
 import React from "react";
 
 function Navbar() {
   return (
-    <nav className="flex flex-col md:flex-row justify-between items-center bg-slate-700 text-white py-3 px-4">
+    <nav
+      className="flex flex-col md:flex-row justify-between sticky top-0
+     items-center bg-slate-700 text-white py-3 px-10  shadow-md"
+    >
       <div className="logo">
-        <span className="font-bold text-xl">iTask</span>
+        <span className="font-bold text-xl cursor-pointer hover:bg-slate-900 px-4 py-2 rounded-full transition-all">
+          iTask
+        </span>
       </div>
 
       <ul className="flex gap-6 mt-2 md:mt-0">
